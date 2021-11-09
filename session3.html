@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h3>Table</h3>
+    <p>This is a Table :)</p>
+
+    <table border>
+        <caption>Students Table</caption>
+
+        <thead>
+
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th colspan="2">Score</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Amir Hossein</td>
+                <td>100</td>
+                <td>90</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ahmad</td>
+                <td rowspan="2">98</td>
+                <td></td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Farhad</td>
+                <td>99</td>
+                <td>M</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <hr />
+
+    <h3>List</h3>
+    <p>This a List :)</p>
+
+    <ol>
+        <li>Amir Hossein</li>
+        <li>Ahmad</li>
+        <li>Farhad</li>
+
+    </ol>
+    <ul>
+        <li>Amir Hossein
+            <ol>
+                <li>Akbar</li>
+                <li>Mahan</li>
+            </ol>
+        </li>
+        <li>Ahmad</li>
+        <li>Farhad</li>
+
+    </ul>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+<!-- note: <table></table> to create table-->
+<!-- note: <thead></thead> to create head of the table-->
+<!-- note: <tr></tr> to add a row in head of the table-->
+<!-- note: <th></th> to add items in columns of the row-->
+<!-- note: <tbody></tbody> to create body of the table -->
+<!-- note: <tr></tr> to add a row to the body-->
+<!-- note: <td></td> to add data in columns of the table 4 column so 4 <td></td>-->
+<!-- note: if you want to add many items to one subject for /
+     example in score column add two scores instead of one score use span and if want many/
+     column use colspan="number of item" attribute to that item in this example in <th></th> /
+     and if you want to add many rows use rowspan="number of item" -->
+<!-- note: use <caption></caotion> to add some imformation above table -->
+<!-- note: use <ol></ol> to create a list ordered by number from 1,2,3,... -->
+<!-- note: use <li></li> to add list item -->
+<!-- note: use <ul></ul> to created unordered list that have dot before list iten instead of numbers-->
+<!-- note: if you want to create list in list or sublist of a item in list before the end of the <li></li> tag /
+     create <ul></ul> or <ol></or> for list and create items with <li></li> -->
